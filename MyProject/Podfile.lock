@@ -1,0 +1,19 @@
+PODS:
+  - MyFramework (1.0.0):
+    - Toast-Swift (~> 2.0.0)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - MyFramework (from `../MyFrameworkCompiled`)
+
+EXTERNAL SOURCES:
+  MyFramework:
+    :path: "../MyFrameworkCompiled"
+
+SPEC CHECKSUMS:
+  MyFramework: bd45f7b0cbce16011660aeb33672fdf65c6babfb
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: a9ad73dca31df91d95cc707da30209a008fbfdf1
+
+COCOAPODS: 1.2.1

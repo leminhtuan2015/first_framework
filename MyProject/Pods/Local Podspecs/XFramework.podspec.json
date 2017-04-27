@@ -1,0 +1,21 @@
+{
+  "name": "XFramework",
+  "version": "1.0.0",
+  "summary": "Sort description of 'MyFramework' framework",
+  "homepage": "https://fujigame.net/",
+  "license": "MIT",
+  "authors": "Nick D., Tuan L.",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git"
+  },
+  "source_files": [
+    "XFramework",
+    "XFramework/*.{h,m,swift}"
+  ],
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  }
+}

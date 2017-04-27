@@ -1,0 +1,8 @@
+ platform :ios, '8.0'
+
+target 'MyProject' do
+  use_frameworks!
+
+  pod "MyFramework", path: "../MyFrameworkCompiled"
+  
+end

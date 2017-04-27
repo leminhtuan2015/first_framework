@@ -1,0 +1,29 @@
+{
+  "name": "MyLib",
+  "version": "1.0.0",
+  "summary": "Sort description of MyLib",
+  "homepage": "https://fujigame.net/",
+  "license": "MIT",
+  "authors": "Nick D., Tuan L.",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "MyLib",
+    "MyLib/**/*.{h,m,swift}"
+  ],
+  "resource_bundles": {
+    "MyLib": [
+      "MyLib/**/*.{lproj,storyboard,png,jpg,jpeg}"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.4"
+    ]
+  },
+  "frameworks": "StoreKit"
+}
