@@ -1,0 +1,19 @@
+ platform :ios, '8.0'
+
+target 'MyProject_1' do
+  use_frameworks!
+  
+#  Here is 'Google/SignIn' depends on:
+#  
+#  GoogleAppUtilities ~> 1.1
+#  GTMOAuth2 ~> 1.0
+#  GTMSessionFetcher/Core ~> 1.1
+#  GoogleToolboxForMac/NSDictionary+URLArguments
+
+  pod 'Toast-Swift', '~> 2.0.0'
+  pod 'GoogleAppUtilities'
+  pod 'GTMOAuth2'
+  pod 'GTMSessionFetcher'
+  pod 'GoogleToolboxForMac'
+
+end
