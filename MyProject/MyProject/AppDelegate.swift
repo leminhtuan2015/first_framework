@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,6 +40,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    public func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        //        return FujiSDK.Instance.application(application, open:url, sourceApplication:sourceApplication, annotation:annotation)
+        
+        if(url.scheme!.isEqual("fbXXXXXXXXXXX")) {
+            return false
+        } else {
+            if #available(iOS 9.0, *) {
+                let googleHandler = GIDSignIn.sharedInstance().handle(
+                    url,
+                    sourceApplication: sourceApplication,
+                    annotation: annotation )
+                
+                return googleHandler
+            } else {
+                // Fallback on earlier versions
+                return false
+            }
+            
+            
+        }
     }
 
 

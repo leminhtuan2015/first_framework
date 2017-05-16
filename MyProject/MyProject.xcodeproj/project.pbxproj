@@ -12,8 +12,42 @@
 		A7D49AEF1EB17AC2002455F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D49AED1EB17AC2002455F3 /* Main.storyboard */; };
 		A7D49AF11EB17AC2002455F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D49AF01EB17AC2002455F3 /* Assets.xcassets */; };
 		A7D49AF41EB17AC2002455F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D49AF21EB17AC2002455F3 /* LaunchScreen.storyboard */; };
+		A7E7F3B71EC9BA3700735BBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7E7F3B61EC9BA3700735BBF /* GoogleService-Info.plist */; };
+		A7FCF7071ECA9EC100688FD6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7061ECA9EC100688FD6 /* MyFramework.framework */; };
+		A7FCF7081ECA9EC600688FD6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7061ECA9EC100688FD6 /* MyFramework.framework */; };
+		A7FCF7091ECA9EC600688FD6 /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7061ECA9EC100688FD6 /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7FCF7171ECA9F3A00688FD6 /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7161ECA9F3A00688FD6 /* GTMOAuth2.framework */; };
+		A7FCF7181ECA9F3E00688FD6 /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7161ECA9F3A00688FD6 /* GTMOAuth2.framework */; };
+		A7FCF7191ECA9F3E00688FD6 /* GTMOAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7161ECA9F3A00688FD6 /* GTMOAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7FCF71C1ECA9F6400688FD6 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71A1ECA9F6400688FD6 /* GoogleToolboxForMac.framework */; };
+		A7FCF71D1ECA9F6400688FD6 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71B1ECA9F6400688FD6 /* GTMSessionFetcher.framework */; };
+		A7FCF71E1ECA9F6D00688FD6 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71A1ECA9F6400688FD6 /* GoogleToolboxForMac.framework */; };
+		A7FCF71F1ECA9F6D00688FD6 /* GoogleToolboxForMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71A1ECA9F6400688FD6 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7FCF7201ECA9F6D00688FD6 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71B1ECA9F6400688FD6 /* GTMSessionFetcher.framework */; };
+		A7FCF7211ECA9F6D00688FD6 /* GTMSessionFetcher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF71B1ECA9F6400688FD6 /* GTMSessionFetcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7FCF7231ECA9F8A00688FD6 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7221ECA9F8A00688FD6 /* Toast_Swift.framework */; };
+		A7FCF7241ECA9F9200688FD6 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7221ECA9F8A00688FD6 /* Toast_Swift.framework */; };
+		A7FCF7251ECA9F9200688FD6 /* Toast_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF7221ECA9F8A00688FD6 /* Toast_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5717B5C0BD9C6646E7AE746 /* Pods_MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4862D3134A94DC33E110D9F5 /* Pods_MyProject.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7FCF7001ECA9DD100688FD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7FCF7211ECA9F6D00688FD6 /* GTMSessionFetcher.framework in Embed Frameworks */,
+				A7FCF71F1ECA9F6D00688FD6 /* GoogleToolboxForMac.framework in Embed Frameworks */,
+				A7FCF7191ECA9F3E00688FD6 /* GTMOAuth2.framework in Embed Frameworks */,
+				A7FCF7091ECA9EC600688FD6 /* MyFramework.framework in Embed Frameworks */,
+				A7FCF7251ECA9F9200688FD6 /* Toast_Swift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4862D3134A94DC33E110D9F5 /* Pods_MyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,18 @@
 		A7D49AF01EB17AC2002455F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D49AF31EB17AC2002455F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D49AF51EB17AC2002455F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E7F3B61EC9BA3700735BBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7E7F3BA1EC9CAF400735BBF /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../../../Desktop/google_signin_sdk_4_0_1/GoogleSignIn.framework; sourceTree = "<group>"; };
+		A7E7F3BE1EC9CB1D00735BBF /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = MyProject/google_signin_sdk_4_0_1/GoogleSignIn.framework; sourceTree = "<group>"; };
+		A7E7F3C01EC9CB7900735BBF /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = MyProject/google_signin_sdk_4_0_1/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		A7E7F3C11EC9CB7900735BBF /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = MyProject/google_signin_sdk_4_0_1/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		A7E7F3C21EC9CB7900735BBF /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = MyProject/google_signin_sdk_4_0_1/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		A7E7F3C31EC9CB7900735BBF /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = MyProject/google_signin_sdk_4_0_1/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A7FCF7061ECA9EC100688FD6 /* MyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyFramework.framework; sourceTree = "<group>"; };
+		A7FCF7161ECA9F3A00688FD6 /* GTMOAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMOAuth2.framework; sourceTree = "<group>"; };
+		A7FCF71A1ECA9F6400688FD6 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		A7FCF71B1ECA9F6400688FD6 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		A7FCF7221ECA9F8A00688FD6 /* Toast_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Toast_Swift.framework; sourceTree = "<group>"; };
 		E3734E8B35C9A20FC53A9671 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		E7FC4EFE3E6B31CE170452FF /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,6 +80,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5717B5C0BD9C6646E7AE746 /* Pods_MyProject.framework in Frameworks */,
+				A7FCF7201ECA9F6D00688FD6 /* GTMSessionFetcher.framework in Frameworks */,
+				A7FCF7241ECA9F9200688FD6 /* Toast_Swift.framework in Frameworks */,
+				A7FCF7071ECA9EC100688FD6 /* MyFramework.framework in Frameworks */,
+				A7FCF7181ECA9F3E00688FD6 /* GTMOAuth2.framework in Frameworks */,
+				A7FCF7231ECA9F8A00688FD6 /* Toast_Swift.framework in Frameworks */,
+				A7FCF71C1ECA9F6400688FD6 /* GoogleToolboxForMac.framework in Frameworks */,
+				A7FCF7171ECA9F3A00688FD6 /* GTMOAuth2.framework in Frameworks */,
+				A7FCF71E1ECA9F6D00688FD6 /* GoogleToolboxForMac.framework in Frameworks */,
+				A7FCF71D1ECA9F6400688FD6 /* GTMSessionFetcher.framework in Frameworks */,
+				A7FCF7081ECA9EC600688FD6 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +108,11 @@
 		A7D49ADD1EB17AC2002455F3 = {
 			isa = PBXGroup;
 			children = (
+				A7FCF7221ECA9F8A00688FD6 /* Toast_Swift.framework */,
+				A7FCF71A1ECA9F6400688FD6 /* GoogleToolboxForMac.framework */,
+				A7FCF71B1ECA9F6400688FD6 /* GTMSessionFetcher.framework */,
+				A7FCF7161ECA9F3A00688FD6 /* GTMOAuth2.framework */,
+				A7FCF7061ECA9EC100688FD6 /* MyFramework.framework */,
 				A7D49AE81EB17AC2002455F3 /* MyProject */,
 				A7D49AE71EB17AC2002455F3 /* Products */,
 				2DD4C75FFD5C2DB520BCB3E6 /* Pods */,
@@ -76,6 +137,7 @@
 				A7D49AF01EB17AC2002455F3 /* Assets.xcassets */,
 				A7D49AF21EB17AC2002455F3 /* LaunchScreen.storyboard */,
 				A7D49AF51EB17AC2002455F3 /* Info.plist */,
+				A7E7F3B61EC9BA3700735BBF /* GoogleService-Info.plist */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -83,6 +145,12 @@
 		B450935F7A3B98C6C8861B77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7E7F3C01EC9CB7900735BBF /* GoogleAppUtilities.framework */,
+				A7E7F3C11EC9CB7900735BBF /* GoogleSignIn.bundle */,
+				A7E7F3C21EC9CB7900735BBF /* GoogleSignInDependencies.framework */,
+				A7E7F3C31EC9CB7900735BBF /* GoogleSymbolUtilities.framework */,
+				A7E7F3BE1EC9CB1D00735BBF /* GoogleSignIn.framework */,
+				A7E7F3BA1EC9CAF400735BBF /* GoogleSignIn.framework */,
 				4862D3134A94DC33E110D9F5 /* Pods_MyProject.framework */,
 			);
 			name = Frameworks;
@@ -101,6 +169,7 @@
 				A7D49AE41EB17AC2002455F3 /* Resources */,
 				1C45540093E6D66E6946E333 /* [CP] Embed Pods Frameworks */,
 				7657B1A9EB5916BF31B10CDF /* [CP] Copy Pods Resources */,
+				A7FCF7001ECA9DD100688FD6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D49AF41EB17AC2002455F3 /* LaunchScreen.storyboard in Resources */,
+				A7E7F3B71EC9BA3700735BBF /* GoogleService-Info.plist in Resources */,
 				A7D49AF11EB17AC2002455F3 /* Assets.xcassets in Resources */,
 				A7D49AEF1EB17AC2002455F3 /* Main.storyboard in Resources */,
 			);
@@ -345,6 +415,8 @@
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/MyProject",
+					"$(PROJECT_DIR)/MyProject/google_signin_sdk_4_0_1",
+					"$(PROJECT_DIR)/binary",
 				);
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -365,6 +437,8 @@
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/MyProject",
+					"$(PROJECT_DIR)/MyProject/google_signin_sdk_4_0_1",
+					"$(PROJECT_DIR)/binary",
 				);
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

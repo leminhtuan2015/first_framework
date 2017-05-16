@@ -3,6 +3,6 @@
 target 'MyProject' do
   use_frameworks!
 
-  pod "MyFramework", path: "../MyFrameworkCompiled"
-  
+#  pod "MyFramework", path: "../MyFrameworkCompiled"
+
 end

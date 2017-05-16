@@ -15,6 +15,7 @@
   "module_map": "MyFramework.framework/Modules/module.modulemap",
   "vendored_frameworks": "MyFramework.framework",
   "requires_arc": true,
+  "source_files": "MyFramework/**/*.{h,m,swift}",
   "dependencies": {
     "Toast-Swift": [
       "~> 2.0.0"

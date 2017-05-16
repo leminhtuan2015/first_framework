@@ -9,20 +9,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Toast-Swift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>50A2276A723A83B7F67B6D1F0D1720EE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>546F9CBA0FBCEC24EC75BB3BA0581096</key>
+		<key>E2C13DC62F5BCFA576D3A0BA496E1219</key>
 		<dict>
 			<key>primary</key>
 			<true/>

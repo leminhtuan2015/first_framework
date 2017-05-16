@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Toast_Swift
+import GoogleSignIn
 
 public class Tuan {
     

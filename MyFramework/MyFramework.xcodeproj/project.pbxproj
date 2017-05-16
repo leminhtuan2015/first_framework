@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A7D49B5B1EB1CE5A002455F3 /* Tuan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D49B5A1EB1CE5A002455F3 /* Tuan.swift */; };
+		A7E7F3B51EC9B8DE00735BBF /* Tuan1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7F3B41EC9B8DE00735BBF /* Tuan1.swift */; };
 		FF8695EE815AD12B9732B4D0 /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE4A2D071A1051A86E72FE9 /* Pods_MyFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		A7D49B4F1EB1CE39002455F3 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D49B531EB1CE39002455F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D49B5A1EB1CE5A002455F3 /* Tuan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuan.swift; sourceTree = "<group>"; };
+		A7E7F3B41EC9B8DE00735BBF /* Tuan1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuan1.swift; sourceTree = "<group>"; };
 		EFF1389297FB05912AEEFCD6 /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 			children = (
 				A7D49B531EB1CE39002455F3 /* Info.plist */,
 				A7D49B5A1EB1CE5A002455F3 /* Tuan.swift */,
+				A7E7F3B41EC9B8DE00735BBF /* Tuan1.swift */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D49B5B1EB1CE5A002455F3 /* Tuan.swift in Sources */,
+				A7E7F3B51EC9B8DE00735BBF /* Tuan1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +362,7 @@
 				A7D49B591EB1CE39002455F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

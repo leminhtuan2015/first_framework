@@ -132,8 +132,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_MSG(...) __attribute__((deprecated(__VA_ARGS__)))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
+@import GoogleSignIn;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class GIDSignIn;
+@class GIDGoogleUser;
+@class UIViewController;
+
+SWIFT_CLASS("_TtC11MyFramework5Tuan1")
+@interface Tuan1 : NSObject <GIDSignInDelegate, GIDSignInUIDelegate>
+- (void)signIn:(GIDSignIn * _Null_unspecified)signIn didSignInForUser:(GIDGoogleUser * _Null_unspecified)user withError:(NSError * _Null_unspecified)error;
+- (void)okWithVc:(UIViewController * _Nonnull)vc;
+- (void)signIn:(GIDSignIn * _Null_unspecified)signIn presentViewController:(UIViewController * _Null_unspecified)viewController;
+- (void)signInWillDispatch:(GIDSignIn * _Null_unspecified)signIn error:(NSError * _Null_unspecified)error;
+- (void)signIn:(GIDSignIn * _Null_unspecified)signIn dismissViewController:(UIViewController * _Null_unspecified)viewController;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #pragma clang diagnostic pop
